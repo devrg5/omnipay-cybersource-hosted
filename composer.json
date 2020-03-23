@@ -1,5 +1,5 @@
 {
-    "name": "patronbase/omnipay-cybersource-hosted",
+    "name": "devrg5/omnipay-cybersource-hosted",
     "type": "library",
     "description": "CyberSource Secure Acceptance Hosted Checkout driver for the Omnipay payment processing library",
     "keywords": [
@@ -17,12 +17,12 @@
         "mobile",
         "redirect"
     ],
-    "homepage": "https://github.com/PatronBase/omnipay-cybersource-hosted",
+    "homepage": "https://github.com/devrg5/omnipay-cybersource-hosted",
     "license": "MIT",
     "authors": [
         {
-            "name": "Leith Caldwell",
-            "email": "leith@codedruids.com"
+            "name": "Rodrigo Garcia",
+            "email": "rg--5@hotmail.com"
         }
     ],
     "autoload": {
@@ -32,10 +32,10 @@
         "psr-4": { "Omnipay\\CyberSource\\" : "tests/" }
     },
     "require": {
-        "omnipay/common": "~2.0"
+        "league/omnipay": "~3.0"
     },
     "require-dev": {
-        "omnipay/tests": "~2.0"
+        "league/tests": "~3.0"
     },
     "extra": {
         "branch-alias": {
